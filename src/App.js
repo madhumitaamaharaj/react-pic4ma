@@ -5,8 +5,14 @@ import "./style.css";
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+   
+<ul className="ul-body">
+<li>{list.id}</li>
+
+<li>{list.userId}</li>
+<li>{list.title}</li>
+<li>{list.body}</li>
+</ul>
     </div>
   );
 }
